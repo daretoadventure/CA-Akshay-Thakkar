@@ -73,6 +73,7 @@ form.addEventListener("submit", function (event) {
 				// Display a success message
 				result.innerHTML = "Thanks for your interest. We'll get in touch with you soon!";
 				form.reset();
+				window.location.href = "https://www.akshaythakkarclasses.com/";
 			})
 			.catch((error) => {
 				loader.style.display = "none";
