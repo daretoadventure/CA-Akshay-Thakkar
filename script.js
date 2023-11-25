@@ -22,7 +22,7 @@ const result = document.querySelector(".result");
 const loader = document.querySelector(".loader");
 
 const formSubmitUrl =
-	"https://script.google.com/macros/s/AKfycbzWC2d8AeRWsCf48AiQNJzmpln2iaXiVCrI_zPr57RT6BB5TuTwWBw9DLaJ26QYVl8-oA/exec";
+	"https://script.google.com/macros/s/AKfycbx_AO5Elibueh0xN_reLijhyAvhQsTK1TXEKLAWyxmIMeksqlA4YqGmDwnNt29O9CG3/exec";
 
 function validateForm(form) {
 	const formData = new FormData(form);
